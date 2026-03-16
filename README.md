@@ -1,4 +1,4 @@
-# 🚀 Interview Practice System
+# 🚀 Interview System
 
 ![Java](https://img.shields.io/badge/Java-8-orange)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-Backend-brightgreen)
