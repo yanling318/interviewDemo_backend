@@ -1,4 +1,10 @@
-# 🚀 Interview System
+# 🚀 Interview Practice System
+
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-Backend-brightgreen)
+![React](https://img.shields.io/badge/React-Frontend-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 A **full-stack web application** for practicing technical interview system.
 
@@ -25,9 +31,11 @@ https://interviewdemo-backend.onrender.com
 
 The Interview System allows users to:
 
-* Make the interview
+* Browse interview status
+* Add interview
+* View the graphic
 * Upload resume
-* Upload excel file(Only HR level)
+* Search and filter Interview
 * Interact with a RESTful backend API
 
 This project was built to demonstrate **full-stack development skills** including backend API design, frontend UI development, and cloud deployment.
@@ -58,7 +66,7 @@ This project was built to demonstrate **full-stack development skills** includin
 
 * Render (Backend)
 * Render Static Site (Frontend)
-* PostgreSQL Cloud Database
+* Render PostgreSQL Cloud Database
 
 ---
 
@@ -84,17 +92,21 @@ PostgreSQL Database
 
 # 📂 Project Structure
 
-── interviewDemo_backend
+```
+interviewDemo
+│
+├── interviewDemo_backend
 │   ├── src/main/java
 │   ├── src/main/resources
 │   ├── pom.xml
 │   └── application.properties
 │
-── interviewDemo_frontend
+└── interviewDemo_frontend
     ├── src
     ├── public
     └── package.json
 ```
+
 ---
 
 # ⚙️ Local Development
@@ -102,7 +114,8 @@ PostgreSQL Database
 ## Clone Repository
 
 ```
-git clone https://github.com/your-username/interviewDemo.git
+git clone https://github.com/yanling318/interviewDemo_backend.git
+git clone https://github.com/yanling318/interviewDemo_frontend.git
 cd interviewDemo
 ```
 
@@ -141,32 +154,49 @@ http://localhost:3000
 
 # 🔗 REST API
 
-## Get All Questions
+## Get All Users
 
 ```
-GET /api/questions
+GET /api/Users
 ```
 
 Example response:
 
 ```
-
+[
+  {
+    "id": 1,
+    "username": "hr",
+    "password": "******",
+    "role": {"id":"1","type": "HR" }  
+  }
+{
+    "id": 2,
+    "username": "Trainer",
+    "password": "******",
+    "role": {"id":"2","type": "Trainer" }  
+}
+]
 ```
 
 ---
 
-## Register account
+## register account
 
 ```
-POST /api/
+POST /api/register
 ```
 
 Request body:
 
 ```
-{
-  
-}
+  {
+    "id": 1,
+    "username": "hr",
+    "password": "123",
+    "role": {"id":"1","type": "HR" }  
+  }
+
 ```
 
 ---
@@ -176,10 +206,12 @@ Request body:
 Example table:
 
 ```
-interview
+user
 ---------
 id
-
+username
+password
+role
 ```
 
 ---
@@ -190,13 +222,15 @@ id
 
 
 
-## Login
+## Login Page
 
 
 
-## Add interview
+## Add Interview
 
 
+
+## Chart Page
 
 ---
 
@@ -223,7 +257,7 @@ Static site hosted on Render
 
 ## Database
 
-PostgreSQL hosted on Render
+PostgreSQL hosted on cloud infrastructure
 
 ---
 
@@ -239,4 +273,5 @@ https://github.com/yanling318
 # 📄 License
 
 MIT License
+
 
