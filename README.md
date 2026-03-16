@@ -206,12 +206,14 @@ Request body:
 Example table:
 
 ```
-user
----------
-id
-username
-password
-role
+user               interview          role
+---------          ---------        --------
+id                   id                id
+username             candidate         type
+password             comments
+role                 email
+                     phone
+                     resume
 ```
 
 ---
