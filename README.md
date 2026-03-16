@@ -167,13 +167,13 @@ Example response:
   {
     "id": 1,
     "username": "hr",
-    "password": "******",
+    "password": "123",
     "role": {"id":"1","type": "HR" }  
   }
 {
     "id": 2,
-    "username": "Trainer",
-    "password": "******",
+    "username": "trainer",
+    "password": "123",
     "role": {"id":"2","type": "Trainer" }  
 }
 ]
