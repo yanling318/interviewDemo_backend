@@ -1,6 +1,6 @@
 # 🚀 Interview Practice System
 
-![Java](https://img.shields.io/badge/Java-17-orange)
+![Java](https://img.shields.io/badge/Java-8-orange)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-Backend-brightgreen)
 ![React](https://img.shields.io/badge/React-Frontend-blue)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
