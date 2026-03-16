@@ -218,9 +218,9 @@ role
 
 # 📷 Screenshots
 
-## Home Page
+## Table Page
 
-
+<img src="docs/table.png">
 
 ## Login Page
 
