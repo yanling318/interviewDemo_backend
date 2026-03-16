@@ -224,13 +224,14 @@ role
 
 ## Login Page
 
-
+<img src="login.png">
 
 ## Add Interview
 
-
+<img src="image/add_interview.png">
 
 ## Chart Page
+<img src="image/chart.png">
 
 ---
 
