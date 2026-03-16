@@ -221,7 +221,7 @@ role
 ## Table Page
 <p align="center">
      <img src="image/table.png">
-     <img src="image/table1.png">
+     <img src="image/hr_table.png">
 </p>
 ## Login Page
 
