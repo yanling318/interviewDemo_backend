@@ -220,7 +220,7 @@ role
 
 ## Table Page
 
-<img src="docs/table.png">
+<img src="image/table.png">
 
 ## Login Page
 
