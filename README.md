@@ -220,8 +220,8 @@ role
 
 ## Table Page
 <p align="center">
-     <img src="image/table.png">
-     <img src="image/hr_table.png">
+     <img src="image/table.png" width="45%">
+     <img src="image/hr_table.png" width="45%">
 </p>
 ## Login Page
 
