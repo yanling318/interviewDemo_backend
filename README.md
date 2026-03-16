@@ -219,20 +219,26 @@ role
 # 📷 Screenshots
 
 ## Table Page
-
-<img src="image/table.png">
-
+<p align="center">
+     <img src="image/table.png">
+     <img src="image/table1.png">
+</p>
 ## Login Page
 
 <img src="login.png">
 
 ## Add Interview
 
-<img src="image/add_interview.png">
+<p align="center">
+     <img src="image/add_interview.png" width="45%">
+     <img src="image/add_interview1.png" width="45%>
+</p>
 
 ## Chart Page
-<img src="image/chart.png">
-
+<p align="center">
+     <img src="image/chart.png" width="45%">
+     <img src="image/chart1.png" width="45%>
+</p>
 ---
 
 # ✨ Key Features
